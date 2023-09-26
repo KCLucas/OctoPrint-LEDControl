@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='OctoPrint-LEDControl',
     version='1.0.0',
-    packages=['octoprint_LEDControl'],
+    packages=find_packages(),
     url='https://github.com/KCLucas/OctoPrint-LEDControl',
     license='MIT',
     author='KCLucas',
